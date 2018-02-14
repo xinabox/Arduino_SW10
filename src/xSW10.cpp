@@ -77,6 +77,5 @@ void xSW10::readTemperature(void)
 {
   uint16_t data = xCore.read16(LM75B_I2C_ADDR, LM75B_REG_TEMP);
   tempC = (data >> 5) * 0.125; 
-  return tempC;
 }
 
