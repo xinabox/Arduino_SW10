@@ -3,17 +3,17 @@
 #######################################
 
 #######################################
-# Instance				(KEYWORD1)
+# Instance		(KEYWORD1)
 #######################################
 
 #######################################
-# Methods and Functions (KEYWORD2)
+# Methods and Functions	(KEYWORD2)
 #######################################
 
-begin   				KEYWORD2
-getTempC   		 		KEYWORD2
-getTempF   		 		KEYWORD2
-poll					KEYWORD2
+begin			KEYWORD2
+getTempC		KEYWORD2
+getTempF		KEYWORD2
+poll			KEYWORD2
 
 #######################################
 # Constants 			(LITERAL1)
