@@ -11,8 +11,8 @@
 	LM75B - https://www.nxp.com/docs/en/data-sheet/LM75B.pdf
 */
 
-#ifndef xSW10_h
-#define xSW10_h
+#ifndef Arduino_SW10_h
+#define Arduino_SW10_h
 
 // System Includes
 #include <inttypes.h>
