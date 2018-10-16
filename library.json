@@ -1,13 +1,13 @@
 {
-  "name": "xSW10",
-  "keywords": "LM75B, SW10, xSW10, XinaBox",
+  "name": "arduino-SW10",
+  "keywords": "LM75B, SW10, arduino-SW10, XinaBox",
   "description": "The SW10 makes use of the LM75B produced by NXP. 
                   The LM75B is an I2C digital temperature sensor that is available in various packages. 
                   It has a range of -55C to +125C, with a 0.125C resolution.",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/xinabox/xSW10.git"
+    "url": "https://github.com/xinabox/arduino-SW10.git"
   },
   "dependencies":
   {
@@ -16,5 +16,5 @@
   },
   "frameworks": "arduino",
   "platforms": "*",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
