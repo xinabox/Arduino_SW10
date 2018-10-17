@@ -11,7 +11,7 @@
 	LM75B - https://www.nxp.com/docs/en/data-sheet/LM75B.pdf
 */
 
-#include "arduino-SW10.h"
+#include <xSW10.h>
 #include <math.h>
   
 /*--Public Class Function--*/

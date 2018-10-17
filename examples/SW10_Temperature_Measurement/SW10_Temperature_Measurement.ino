@@ -16,7 +16,7 @@
 *************************************************************/
 
 #include <xCore.h>
-#include <arduino-SW10.h>
+#include <xSW10.h>
 
 // Singleton Instance of the Sensor
 xSW10 SW10;
