@@ -14,5 +14,5 @@ install:
     - unzip /tmp/arduino-CORE.zip -d /tmp/
 
 script:
-    - platformio ci --lib="." --lib="/tmp/arduino-CORE-master" -b=uno -b=zero -b=xinabox_cw01 -b=xinabox_cw02
+    - platformio ci --lib="." --lib="/tmp/arduino-CORE-master" --board=uno --board=zero --board=xinabox_cw01 --board=xinabox_cw02
 
