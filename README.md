@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/xinabox/arduino-SW10.svg?branch=master)](https://travis-ci.org/xinabox/arduino-SW10)
+
 # ☒CHIP SW10
 <img src="extras/SW10-V1.0.0.JPG" width="35%" height="auto" align="right">
 Digital (I2C) Temperature Sensor.
