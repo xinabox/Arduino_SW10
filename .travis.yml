@@ -1,6 +1,9 @@
 language: python
 python:
     - "2.7"
+    
+env:
+    - PLATFORMIO_CI_SRC=examples/SW10_Temperature_Measurement/SW10_Temperature_Measurement.ino
 
 install:
     - python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
@@ -11,6 +14,5 @@ install:
     - unzip /tmp/arduino-CORE.zip -d /tmp/
 
 script:
-    - platformio ci --lib="/tmp/arduino-CORE-master" --board=uno --board=esp01
-    - platformio ci --lib="src" --board=uno --board=CW01
-    - platformio ci examples --board=zero --board=CW02
+    - platformio ci --lib="." --lib="/tmp/arduino-CORE-master" -b=uno -b=zero -b=xinabox_cw01 -b=xinabox_cw02
+
