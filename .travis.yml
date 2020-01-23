@@ -4,6 +4,13 @@ python:
 
 install:
     - python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
+    - pip install -U platformio
+
+    # download library to the temporary directory
+    - wget https://github.com/xinabox/arduino-CORE/archive/master.zip -O /tmp/arduino-CORE.zip
+    - unzip /tmp/arduino-CORE.zip -d /tmp/
 
 script:
-    - platformio ci src --board=uno --board=esp01
+    - platformio ci --lib="/tmp/arduino-CORE" --board=uno --board=esp01
+    - platformio ci --lib="src" --board=uno --board=esp01
+    - platformio ci examples --board=uno --board=esp01
