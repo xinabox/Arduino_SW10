@@ -11,6 +11,6 @@ install:
     - unzip /tmp/arduino-CORE.zip -d /tmp/
 
 script:
-    - platformio ci --lib="/tmp/arduino-CORE" --board=uno --board=esp01
-    - platformio ci --lib="src" --board=uno --board=esp01
-    - platformio ci examples --board=uno --board=esp01
+    - platformio ci --lib="/tmp/arduino-CORE-master" --board=uno --board=esp01
+    - platformio ci --lib="src" --board=uno --board=CW01
+    - platformio ci examples --board=zero --board=CW02
