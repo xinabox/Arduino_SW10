@@ -8,7 +8,7 @@ cache:
         - "~/.platformio"
         
 env:
-    - PLATFORMIO_CI_SRC=examples/SW10_Temperature_Measurement.ino
+    - PLATFORMIO_CI_SRC=examples/SW10_Temperature_Measurement/SW10_Temperature_Measurement.ino
 
 install:
     - pip install -U platformio
